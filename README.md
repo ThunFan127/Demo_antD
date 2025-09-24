@@ -105,7 +105,3 @@ Dự án học tập với:
 - Responsive design patterns
 - Ant Design best practices
 
----
-
-**🔗 Demo**: [Live Demo](https://your-demo-link.vercel.app)  
-**📧 Contact**: [Your Email](mailto:your-email@example.com)
