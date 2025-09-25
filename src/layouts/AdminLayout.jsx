@@ -6,9 +6,9 @@ import {
   MenuUnfoldOutlined,
 } from '@ant-design/icons'
 import AdminSideBar from '../components/AdminSideBar'
-import Home from '../pages/Home'
-import Users from '../pages/Users'
-import Products from '../pages/Products'
+import Dashboard from '../pages/admin/Dashboard'
+import Users from '../pages/admin/Users'
+import Products from '../pages/admin/Products'
 import { useThemeLanguage } from '../contexts/ThemeLanguageContext'
 import { t } from '../utils/translations'
 
@@ -103,7 +103,7 @@ const AdminLayout = () => {
           minHeight: 'calc(100vh - 64px)',
         }}>
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={<Dashboard />} />
             <Route path="/users" element={<Users />} />
             <Route path="/products" element={<Products />} />
           </Routes>
