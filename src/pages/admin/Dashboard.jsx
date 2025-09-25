@@ -1,9 +1,9 @@
 import { Card, Row, Col, Statistic, Typography } from 'antd'
 import { UserOutlined, ShoppingOutlined, HomeOutlined, DatabaseOutlined } from '@ant-design/icons'
-import { LocalStorageService } from '../utils/localStorage'
-import { initializeSampleData } from '../utils/dataGenerator'
-import { useThemeLanguage } from '../contexts/ThemeLanguageContext'
-import { t } from '../utils/translations'
+import { LocalStorageService } from '../../utils/localStorage'
+import { initializeSampleData } from '../../utils/dataGenerator'
+import { useThemeLanguage } from '../../contexts/ThemeLanguageContext'
+import { t } from '../../utils/translations'
 import { useEffect, useState } from 'react'
 
 const { Title, Paragraph } = Typography

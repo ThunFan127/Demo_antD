@@ -8,8 +8,8 @@ import {
   MoonOutlined,
   GlobalOutlined,
 } from '@ant-design/icons'
-import { useThemeLanguage } from '../contexts/ThemeLanguageContext'
-import { t } from '../utils/translations'
+import { useThemeLanguage } from '../../contexts/ThemeLanguageContext'
+import { t } from '../../utils/translations'
 
 const { Text } = Typography
 

@@ -5,7 +5,7 @@ import {
   MenuFoldOutlined,
   MenuUnfoldOutlined,
 } from '@ant-design/icons'
-import AdminSideBar from '../components/AdminSideBar'
+import AdminSideBar from '../components/admin/AdminSideBar'
 import Dashboard from '../pages/admin/Dashboard'
 import Users from '../pages/admin/Users'
 import Products from '../pages/admin/Products'
